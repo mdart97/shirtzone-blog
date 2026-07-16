@@ -28,6 +28,17 @@ Other services include free digital proofs, art kept on file for reorders, desig
 - End with a soft call to action linking to the quote form as `[...](#quote)` (the embed rewires this link)
 - Seasonal relevance is why this blog exists — follow the "Seasonal targeting" section below
 
+## SEO (required)
+
+Every post is built around **one search query** a real buyer would type (e.g. "how many shirts do I need for a fundraiser", "embroidered scrubs for a small clinic", "custom hats for construction company"). Then:
+
+- Put the query (or a natural close variant) in the **title** (front-loaded, aim for ≤60 characters), in the **first 100 words**, in the **slug**, and in the **excerpt**
+- The excerpt doubles as the page's meta description: **≤155 characters**, contains the phrase, and sells the click
+- **Alternate intent week to week:** roughly half *local* queries — ShirtZone is in **Redding, CA**, serving a 65-mile radius (Anderson, Shasta Lake, Cottonwood, Palo Cedro, Red Bluff, Corning, Weaverville, Burney, and greater Shasta County / Northern California) — and roughly half *national* how-to queries, since ShirtZone ships orders anywhere in the US
+- For local posts, mention the location **naturally, once or twice** (title or body) — never keyword-stuff, never fabricate local events or businesses
+- **Internal links:** in the body, link to 1–2 genuinely relevant older posts using their root-relative URL `/p/<slug>/` (slugs are in posts.json). The build system turns each post into its own SEO page at that URL
+- Titles must read like something a human wants to click, not a keyword string. If SEO phrasing and natural phrasing conflict, natural wins
+
 ## Seasonal targeting (required)
 
 Custom apparel is ordered **3–8 weeks before it's worn**. Write for what the reader should be ordering NOW for what's coming NEXT — never for the event currently happening (that reader already ordered or missed their window). Example: in July, write back-to-school spirit wear and fall sports jerseys, not summer event tees.
@@ -48,13 +59,13 @@ Every audience has a season: schools cycle around the academic calendar, contrac
 1. Read `posts.json` — review ALL past titles and tags. Your topic must not repeat or closely overlap any previous post.
 2. Pick a topic by combining the "Seasonal targeting" calendar with audience rotation: start from what readers should be ordering right now for the coming 1–2 months, then pick the audience least recently served among those with a live seasonal need. Also rotate services over time: screen printing, embroidery, and leather-patch caps should all get regular coverage.
 3. Write the post to `posts/YYYY-MM-DD-<slug>.md` (today's date, short kebab slug).
-4. Prepend a new entry to the TOP of the `posts` array in `posts.json` (newest first): slug, title, date, 1–2 relevant tags, a 1–2 sentence excerpt that sells the click, and the file path. Update the top-level `updated` field to today.
+4. Prepend a new entry to the TOP of the `posts` array in `posts.json` (newest first): slug, title, date, 1–2 relevant tags, an excerpt (≤155 characters, sells the click, contains the target query), and the file path. Update the top-level `updated` field to today. The slug becomes the post's permanent URL (`/p/<slug>/`) — keep it short and keyword-bearing, and never change an existing slug.
 5. Validate `posts.json` parses as JSON.
-6. Commit with message `Weekly post: <title>` and push to main.
+6. Commit with message `Weekly post: <title>` and push to main. A GitHub Action then builds the SEO pages, sitemap, and RSS feed automatically — you do not build anything yourself.
 
 ## Hard rules
 
-- Never delete or edit existing posts
-- Never change the file structure, `index.html`, or this guide
+- Never delete or edit existing posts, and never change an existing slug
+- Never modify `embed.js`, `build.js`, `.github/workflows/`, or this guide
 - One post per run, exactly
 - If anything fails validation, fix it before pushing

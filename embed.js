@@ -50,6 +50,8 @@
     '.szb-article tr:nth-child(even) td{background:#f8f9fb}',
     '.szb-cta{background:#fff0e8;border-radius:10px;padding:4px 18px;margin-top:24px}',
     '.szb-note{text-align:center;color:#8a94a8;font-size:.9rem;padding:30px 0}',
+    '.szb-foot{text-align:center;padding:22px 0 4px;font-size:.85rem}',
+    '.szb-perma{display:block;text-align:right;font-size:.78rem;margin-top:18px}',
     '@media(max-width:600px){.szb-feat{padding:20px}.szb-article{padding:22px 18px}.szb-article h1{font-size:1.45rem}}'
   ].join('\n');
 
@@ -132,7 +134,7 @@
   }
 
   function init(root) {
-    var quoteUrl = root.getAttribute('data-quote-url') || '';
+    var quoteUrl = root.getAttribute('data-quote-url') || 'https://shirtzone.com/get-a-quote-now';
     var maxPosts = parseInt(root.getAttribute('data-max-posts') || '12', 10);
 
     var style = document.createElement('style');
@@ -156,8 +158,13 @@
       for (var k = 0; k < links.length; k++) {
         var a = links[k];
         if (a.getAttribute('href') === '#quote') {
-          if (quoteUrl) { a.setAttribute('href', quoteUrl); a.setAttribute('target', '_top'); }
-          else { a.removeAttribute('href'); a.style.cursor = 'default'; a.style.color = 'inherit'; a.style.fontWeight = ''; }
+          a.setAttribute('href', quoteUrl);
+          a.setAttribute('target', '_top');
+        } else if (/^\//.test(a.getAttribute('href') || '')) {
+          // root-relative links (e.g. /p/<slug>/) point at the blog site, not the host page
+          a.setAttribute('href', BASE.replace(/\/$/, '') + a.getAttribute('href'));
+          a.setAttribute('target', '_blank');
+          a.setAttribute('rel', 'noopener');
         } else if (/^https?:/.test(a.getAttribute('href') || '')) {
           a.setAttribute('target', '_blank');
           a.setAttribute('rel', 'noopener');
@@ -205,6 +212,14 @@
         grid.appendChild(c);
       });
       wrap.appendChild(grid);
+
+      var foot = el('div', 'szb-foot');
+      var all = el('a', null, 'Browse all posts on the ShirtZone Blog →');
+      all.href = BASE;
+      all.target = '_blank';
+      all.rel = 'noopener';
+      foot.appendChild(all);
+      wrap.appendChild(foot);
     }
 
     function openPost(post, posts) {
@@ -237,6 +252,11 @@
             last.className = 'szb-cta';
             last.style.padding = '16px 18px';
           }
+          var perma = el('a', 'szb-perma', 'Open this post on the blog ↗');
+          perma.href = BASE + 'p/' + post.slug + '/';
+          perma.target = '_blank';
+          perma.rel = 'noopener';
+          bodyHolder.appendChild(perma);
           fixLinks(bodyHolder);
         })
         .catch(function () {
