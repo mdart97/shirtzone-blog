@@ -6,14 +6,11 @@ Every season, coaches and team parents inherit the same thankless job: getting e
 
 Standard turnaround on a team order is usually 7–10 business days *after art approval*. Add time for collecting sizes, a proof revision, and shipping, and three weeks is the comfortable window. Two weeks is doable. One week is rush-fee territory — possible, but why pay extra?
 
-## Names and numbers: know your options
+## Names and numbers: how personalization works
 
-There are two common ways to personalize jerseys:
+Jersey names and numbers are done in **heat-pressed vinyl** — each player gets their own number, or their own name and number, without the team paying for custom setups per kid. Vinyl is sharp, durable through a season of washing, and it's what makes a jersey feel like *theirs*: nothing beats a kid seeing their name across the back.
 
-- **Screen-printed numbers** — most affordable for teams; great for a season of play
-- **Heat-pressed vinyl names & numbers** — each player gets their own name; slightly higher cost per shirt, but nothing beats a kid seeing their name on a jersey
-
-A popular combo: screen print the team logo front and center, vinyl press each player's name and number on the back. You get bulk pricing on the logo and personalization where it counts.
+The classic setup: screen print the team logo front and center — that's where bulk pricing does its work — then vinyl press each player's name and number on the back. Personalization exactly where it counts.
 
 One planning note: team orders work on a **12-piece minimum**, which almost every roster clears without thinking about it. If your squad is smaller, round out the run with coach shirts and a few spirit-wear tees for parents.
 
