@@ -6,15 +6,20 @@ Every season, coaches and team parents inherit the same thankless job: getting e
 
 Standard turnaround on a team order is usually 7–10 business days *after art approval*. Add time for collecting sizes, a proof revision, and shipping, and three weeks is the comfortable window. Two weeks is doable. One week is rush-fee territory — possible, but why pay extra?
 
-## Numbers, done the durable way
+## Names and numbers: know your options
 
-Screen-printed numbers are the team standard for a reason: they're the most affordable option at team quantities, and the ink outlasts a season of washing, sliding, and getting stuffed in gym bags. A popular setup: team logo screen printed front and center, a big number on the back. Rosters share a handful of number designs, so the whole team prints efficiently in one run.
+There are two common ways to personalize jerseys:
+
+- **Screen-printed numbers** — most affordable for teams; great for a season of play
+- **Heat-pressed vinyl names & numbers** — each player gets their own name; slightly higher cost per shirt, but nothing beats a kid seeing their name on a jersey
+
+A popular combo: screen print the team logo front and center, vinyl press each player's name and number on the back. You get bulk pricing on the logo and personalization where it counts.
 
 One planning note: team orders work on a **12-piece minimum**, which almost every roster clears without thinking about it. If your squad is smaller, round out the run with coach shirts and a few spirit-wear tees for parents.
 
 ## Collect sizes the smart way
 
-Don't chase sixteen families by text. Send one link with a deadline (a free Google Form works great) asking for: player name, number preference, adult/youth size. Two reminders, then order what you have — a straggler's jersey can usually ride along with your spirit-wear run, so set your order deadline a few days before you truly need final numbers.
+Don't chase sixteen families by text. Send one link with a deadline (a free Google Form works great) asking for: player name, number preference, adult/youth size. Two reminders, then order what you have — there will always be one late family, and a single extra jersey can usually be added via heat press even after the main run.
 
 **Sizing tip:** youth sizes run small and kids grow mid-season. When in doubt, size up. An oversized jersey gets grown into; a tight one gets complained about.
 

@@ -4,11 +4,12 @@ You are writing this week's blog post for **ShirtZone**, a custom t-shirt and ap
 
 ## The business
 
-ShirtZone decorates custom apparel. Exactly three services — never mention any other decoration method (no DTG, no vinyl, no sublimation, no direct-to-film):
+ShirtZone decorates custom apparel. Exactly these services — never mention any other decoration method (no DTG, no sublimation, no direct-to-film):
 
 - **Bulk screen printing** — 12 piece minimum
 - **Embroidery** — 6 piece minimum
 - **Leather patches on caps** — 12 piece minimum
+- **Heat-pressed vinyl** — offered ONLY for jersey names and numbers (team personalization); never pitch vinyl as a general decoration method for logos or full designs
 
 Other services include free digital proofs, art kept on file for reorders, design help, and a quote form on the website. Always respect the minimums when discussing quantities — never suggest ordering fewer pieces than the minimum for a service.
 
