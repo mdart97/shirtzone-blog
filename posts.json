@@ -1,0 +1,46 @@
+{
+  "blog": "ShirtZone Blog",
+  "updated": "2026-07-16",
+  "posts": [
+    {
+      "slug": "fundraiser-tees",
+      "title": "Fundraiser Tees That Sell: Design Tips for Schools and Events",
+      "date": "2026-07-14",
+      "tags": ["Fundraisers", "Schools & Events"],
+      "excerpt": "The difference between a fundraiser shirt that sells 40 and one that sells 400 comes down to a few decisions made before printing. Here's what actually works.",
+      "file": "posts/2026-07-14-fundraiser-tees.md"
+    },
+    {
+      "slug": "branded-merch-ideas",
+      "title": "5 Branded Merch Ideas Local Businesses Are Actually Using Right Now",
+      "date": "2026-07-07",
+      "tags": ["Business Merch", "Ideas"],
+      "excerpt": "The local businesses getting real mileage out of custom apparel are making gear people choose to wear. Five ideas we're printing again and again.",
+      "file": "posts/2026-07-07-branded-merch-ideas.md"
+    },
+    {
+      "slug": "team-jersey-guide",
+      "title": "Team Jerseys & Spirit Wear: A Coach's Guide to Ordering Without the Headache",
+      "date": "2026-06-30",
+      "tags": ["Teams", "How-To"],
+      "excerpt": "Getting everyone a jersey on time, in the right size, without blowing the budget — here's how coaches and team parents make it painless.",
+      "file": "posts/2026-06-30-team-jersey-guide.md"
+    },
+    {
+      "slug": "bulk-order-playbook",
+      "title": "The Bulk Order Playbook: Getting the Best Price on Custom Shirts for Your Business",
+      "date": "2026-06-23",
+      "tags": ["Business Merch", "Pricing"],
+      "excerpt": "A few decisions made early can swing your final cost by 30% or more. The playbook we wish every first-time buyer had.",
+      "file": "posts/2026-06-23-bulk-order-playbook.md"
+    },
+    {
+      "slug": "screen-printing-vs-dtg",
+      "title": "Screen Printing vs. DTG: Which Is Right for Your Order?",
+      "date": "2026-06-16",
+      "tags": ["Printing 101"],
+      "excerpt": "The single most common question we get — and the answer depends almost entirely on how many shirts you need and what your design looks like.",
+      "file": "posts/2026-06-16-screen-printing-vs-dtg.md"
+    }
+  ]
+}
