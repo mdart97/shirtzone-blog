@@ -4,11 +4,19 @@ You are writing this week's blog post for **ShirtZone**, a custom t-shirt and ap
 
 ## The business
 
-ShirtZone prints custom apparel: screen printing (bulk), DTG (small runs), heat-pressed vinyl names/numbers. Services include free digital proofs, art kept on file for reorders, design help, and a quote form on the website.
+ShirtZone decorates custom apparel. Exactly three services — never mention any other decoration method (no DTG, no vinyl, no sublimation, no direct-to-film):
+
+- **Bulk screen printing** — 12 piece minimum
+- **Embroidery** — 6 piece minimum
+- **Leather patches on caps** — 12 piece minimum
+
+Other services include free digital proofs, art kept on file for reorders, design help, and a quote form on the website. Always respect the minimums when discussing quantities — never suggest ordering fewer pieces than the minimum for a service.
 
 **Target readers (write for these people only):**
 1. **Local businesses & brands** — owners/managers buying staff shirts, uniforms, promo merch, retail merch
-2. **Teams, schools & events** — coaches, team parents, PTA/booster organizers, event planners buying jerseys, spirit wear, fundraiser and event tees
+2. **Local contractors & construction companies** — crew shirts and hoodies, hi-vis and workwear, embroidered caps and leather-patch caps, company branding that survives the job site
+3. **Healthcare practices** — clinics, dental offices, home health, vet offices buying embroidered scrubs, polos, and jackets for staff
+4. **Teams, schools & events** — coaches, team parents, PTA/booster organizers, event planners buying jerseys, spirit wear, fundraiser and event tees
 
 ## Voice and quality bar
 
@@ -22,7 +30,7 @@ ShirtZone prints custom apparel: screen printing (bulk), DTG (small runs), heat-
 ## Steps
 
 1. Read `posts.json` — review ALL past titles and tags. Your topic must not repeat or closely overlap any previous post.
-2. Pick a topic serving one of the two target audiences. Rotate: if recent posts leaned business-merch, lean teams/schools this week, and vice versa.
+2. Pick a topic serving one of the four target audiences. Rotate audiences week to week so no single audience dominates — check which audiences the last few posts served and pick an underserved one. Also rotate services: screen printing, embroidery, and leather-patch caps should all get regular coverage.
 3. Write the post to `posts/YYYY-MM-DD-<slug>.md` (today's date, short kebab slug).
 4. Prepend a new entry to the TOP of the `posts` array in `posts.json` (newest first): slug, title, date, 1–2 relevant tags, a 1–2 sentence excerpt that sells the click, and the file path. Update the top-level `updated` field to today.
 5. Validate `posts.json` parses as JSON.
