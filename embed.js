@@ -11,48 +11,52 @@
   var BASE = script && script.src ? script.src.replace(/\/[^\/]*$/, '/') : './';
 
   var css = [
-    '.szb{font-family:"Segoe UI",system-ui,-apple-system,sans-serif;color:#1a1f2e;line-height:1.6;max-width:1040px;margin:0 auto;padding:8px 4px}',
+    /* ShirtZone brand: black bg, #F7A711 gold, Archivo Black uppercase headings, Montserrat body, square corners */
+    '.szb{font-family:Montserrat,arial,sans-serif;color:#e2e2e2;line-height:1.65;max-width:1040px;margin:0 auto;padding:8px 4px}',
     '.szb *{box-sizing:border-box}',
-    '.szb a{color:#f26d21;text-decoration:none}',
+    '.szb a{color:#f7a711;text-decoration:none}',
     '.szb a:hover{text-decoration:underline}',
-    '.szb-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:20px;border-bottom:3px solid #111;padding-bottom:12px}',
-    '.szb-head h2{margin:0;font-size:1.7rem;font-weight:800;letter-spacing:-.02em;color:#111}',
-    '.szb-head h2 span{color:#f26d21}',
-    '.szb-head p{margin:0;color:#8a94a8;font-size:.9rem}',
-    '.szb-badge{display:inline-block;background:#f26d21;color:#fff;font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 10px;border-radius:20px;margin-bottom:10px}',
-    '.szb-feat{background:#111;border-radius:12px;padding:28px;color:#fff;cursor:pointer;transition:transform .15s,box-shadow .15s;margin-bottom:20px}',
-    '.szb-feat:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.25)}',
-    '.szb-feat h3{margin:0 0 10px;font-size:1.45rem;font-weight:800;line-height:1.3;color:#fff}',
-    '.szb-feat p{margin:0 0 14px;color:#c8cdd8;font-size:.98rem}',
+    '.szb-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:24px;border-bottom:3px solid #f7a711;padding-bottom:14px}',
+    '.szb-head h2{margin:0;font-family:"Archivo Black",arial,sans-serif;font-size:1.6rem;font-weight:400;text-transform:uppercase;letter-spacing:.01em;color:#fff}',
+    '.szb-head h2 span{color:#f7a711}',
+    '.szb-head p{margin:0;color:#919191;font-size:.88rem}',
+    '.szb-badge{display:inline-block;background:#f7a711;color:#000;font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;margin-bottom:12px}',
+    '.szb-feat{background:#1b1b1b;border:1px solid #2e2e2e;padding:28px;color:#e2e2e2;cursor:pointer;transition:border-color .15s,box-shadow .15s;margin-bottom:20px}',
+    '.szb-feat:hover{border-color:#f7a711;box-shadow:0 10px 30px rgba(0,0,0,.5)}',
+    '.szb-feat h3{margin:0 0 10px;font-family:"Archivo Black",arial,sans-serif;font-size:1.3rem;font-weight:400;text-transform:uppercase;line-height:1.35;color:#fff}',
+    '.szb-feat p{margin:0 0 14px;color:#919191;font-size:.95rem}',
     '.szb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}',
-    '.szb-card{background:#fff;border:1px solid #d9dde6;border-radius:12px;padding:20px;cursor:pointer;transition:transform .15s,box-shadow .15s,border-color .15s;display:flex;flex-direction:column}',
-    '.szb-card:hover{transform:translateY(-2px);border-color:#f26d21;box-shadow:0 8px 24px rgba(17,17,17,.08)}',
-    '.szb-card h3{margin:0 0 8px;font-size:1.08rem;font-weight:700;line-height:1.35;color:#111}',
-    '.szb-card p{margin:0 0 12px;color:#4a5568;font-size:.88rem;flex:1}',
-    '.szb-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.75rem;color:#8a94a8;margin-bottom:10px}',
-    '.szb-tag{background:#fff0e8;color:#d45a10;font-weight:600;padding:2px 9px;border-radius:20px;font-size:.72rem}',
-    '.szb-feat .szb-meta{color:#9aa2b4}',
-    '.szb-more{font-size:.85rem;font-weight:700;color:#f26d21}',
-    '.szb-article{background:#fff;border:1px solid #d9dde6;border-radius:12px;padding:32px;max-width:760px;margin:0 auto}',
-    '.szb-back{display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid #d9dde6;border-radius:20px;padding:7px 16px;font-size:.85rem;font-weight:600;color:#4a5568;cursor:pointer;margin-bottom:20px;font-family:inherit}',
-    '.szb-back:hover{border-color:#111;color:#111}',
-    '.szb-article h1{font-size:1.8rem;font-weight:800;line-height:1.25;color:#111;margin:0 0 8px;letter-spacing:-.02em}',
-    '.szb-article h2{font-size:1.25rem;font-weight:700;color:#111;margin:28px 0 10px}',
-    '.szb-article h3{font-size:1.05rem;font-weight:700;color:#111;margin:22px 0 8px}',
-    '.szb-article p{margin:0 0 14px;font-size:.97rem}',
+    '.szb-card{background:#161616;border:1px solid #2e2e2e;padding:22px;cursor:pointer;transition:border-color .15s,box-shadow .15s;display:flex;flex-direction:column}',
+    '.szb-card:hover{border-color:#f7a711;box-shadow:0 8px 24px rgba(0,0,0,.5)}',
+    '.szb-card h3{margin:0 0 8px;font-family:"Archivo Black",arial,sans-serif;font-size:.95rem;font-weight:400;text-transform:uppercase;line-height:1.4;color:#e2e2e2}',
+    '.szb-card p{margin:0 0 12px;color:#919191;font-size:.86rem;flex:1}',
+    '.szb-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.72rem;color:#5e5e5e;margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em}',
+    '.szb-tag{border:1px solid #f7a711;color:#f7a711;font-weight:600;padding:2px 9px;font-size:.68rem}',
+    '.szb-feat .szb-meta{color:#919191}',
+    '.szb-more{font-size:.78rem;font-weight:700;color:#f7a711;text-transform:uppercase;letter-spacing:.08em}',
+    '.szb-article{background:#161616;border:1px solid #2e2e2e;padding:34px;max-width:780px;margin:0 auto}',
+    '.szb-back{display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid #f7a711;padding:8px 18px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#f7a711;cursor:pointer;margin-bottom:22px;font-family:Montserrat,arial,sans-serif}',
+    '.szb-back:hover{background:#f7a711;color:#000}',
+    '.szb-article h1{font-family:"Archivo Black",arial,sans-serif;font-size:1.55rem;font-weight:400;text-transform:uppercase;line-height:1.3;color:#f7a711;margin:0 0 10px}',
+    '.szb-article h2{font-family:"Archivo Black",arial,sans-serif;font-size:1.05rem;font-weight:400;text-transform:uppercase;color:#f7a711;margin:28px 0 10px}',
+    '.szb-article h3{font-family:"Archivo Black",arial,sans-serif;font-size:.92rem;font-weight:400;text-transform:uppercase;color:#e2e2e2;margin:22px 0 8px}',
+    '.szb-article p{margin:0 0 14px;font-size:.95rem;color:#c2c2c2}',
     '.szb-article ul,.szb-article ol{margin:0 0 14px;padding-left:24px}',
-    '.szb-article li{margin-bottom:6px;font-size:.97rem}',
-    '.szb-article strong{color:#111}',
+    '.szb-article li{margin-bottom:6px;font-size:.95rem;color:#c2c2c2}',
+    '.szb-article strong{color:#fff}',
     '.szb-tablewrap{overflow-x:auto;margin:0 0 14px}',
-    '.szb-article table{border-collapse:collapse;width:100%;font-size:.92rem}',
-    '.szb-article th{background:#111;color:#fff;text-align:left;padding:8px 12px;font-weight:600}',
-    '.szb-article td{border:1px solid #d9dde6;padding:8px 12px}',
-    '.szb-article tr:nth-child(even) td{background:#f8f9fb}',
-    '.szb-cta{background:#fff0e8;border-radius:10px;padding:4px 18px;margin-top:24px}',
-    '.szb-note{text-align:center;color:#8a94a8;font-size:.9rem;padding:30px 0}',
-    '.szb-foot{text-align:center;padding:22px 0 4px;font-size:.85rem}',
-    '.szb-perma{display:block;text-align:right;font-size:.78rem;margin-top:18px}',
-    '@media(max-width:600px){.szb-feat{padding:20px}.szb-article{padding:22px 18px}.szb-article h1{font-size:1.45rem}}'
+    '.szb-article table{border-collapse:collapse;width:100%;font-size:.9rem}',
+    '.szb-article th{background:#f7a711;color:#000;text-align:left;padding:8px 12px;font-weight:700;text-transform:uppercase;font-size:.78rem;letter-spacing:.05em}',
+    '.szb-article td{border:1px solid #2e2e2e;padding:8px 12px;color:#c2c2c2}',
+    '.szb-article tr:nth-child(even) td{background:#1b1b1b}',
+    '.szb-cta{background:#f7a711;padding:4px 18px;margin-top:24px}',
+    '.szb-cta,.szb-article p.szb-cta{color:#000}',
+    '.szb-cta strong{color:#000}',
+    '.szb-cta a{color:#000;font-weight:700;text-decoration:underline}',
+    '.szb-note{text-align:center;color:#919191;font-size:.9rem;padding:30px 0}',
+    '.szb-foot{text-align:center;padding:24px 0 4px;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}',
+    '.szb-perma{display:block;text-align:right;font-size:.75rem;margin-top:18px}',
+    '@media(max-width:600px){.szb-feat{padding:20px}.szb-article{padding:22px 16px}.szb-article h1{font-size:1.25rem}}'
   ].join('\n');
 
   function el(tag, cls, html) {
@@ -137,6 +141,12 @@
     var quoteUrl = root.getAttribute('data-quote-url') || 'https://shirtzone.com/get-a-quote-now';
     var maxPosts = parseInt(root.getAttribute('data-max-posts') || '12', 10);
 
+    if (!document.querySelector('link[href*="Archivo+Black"]')) {
+      var fonts = document.createElement('link');
+      fonts.rel = 'stylesheet';
+      fonts.href = 'https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;500;600;700&display=swap';
+      document.head.appendChild(fonts);
+    }
     var style = document.createElement('style');
     style.textContent = css;
     document.head.appendChild(style);
