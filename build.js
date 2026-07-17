@@ -316,6 +316,9 @@ posts.forEach(function (p) {
   fs.writeFileSync(path.join(OUT, 'rss.xml'), rss);
 })();
 
+/* custom domain (must persist across every deploy or Pages drops it) */
+fs.writeFileSync(path.join(OUT, 'CNAME'), 'blog.shirtzone.com\n');
+
 /* robots + 404 */
 fs.writeFileSync(path.join(OUT, 'robots.txt'), 'User-agent: *\nAllow: /\n\nSitemap: ' + SITE + '/sitemap.xml\n');
 fs.writeFileSync(path.join(OUT, '404.html'), chrome({
