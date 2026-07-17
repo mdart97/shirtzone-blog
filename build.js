@@ -99,7 +99,7 @@ a{color:#ff0100;text-decoration:none}a:hover{text-decoration:underline}
 h1,h2,h3,.logo{font-family:'Archivo Black',arial,sans-serif;font-weight:400;text-transform:uppercase}
 .topbar{background:#111;border-bottom:1px solid #2e2e2e;padding:12px 20px}
 .topbar-in{max-width:1040px;margin:0 auto;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-.logo{display:flex;align-items:center;gap:12px;font-size:1.05rem;color:#fff;letter-spacing:.01em}.logo span{color:#ff0100}
+.logo{display:flex;align-items:center;gap:12px;font-size:1.05rem;color:#fff;letter-spacing:.01em}.logo-text span{color:#ff0100}
 .logo-img{height:46px;width:auto;display:block}
 .topbar a.nav{color:#919191;font-size:.78rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em}.topbar a.nav:hover{color:#ff0100;text-decoration:none}
 .topbar .btn{margin-left:auto;background:#ff0100;color:#fff;font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;padding:9px 20px}
@@ -108,7 +108,7 @@ main{max-width:1040px;margin:0 auto;padding:32px 16px 60px}
 .crumbs{font-size:.75rem;color:#5e5e5e;margin-bottom:18px;text-transform:uppercase;letter-spacing:.05em}
 article{background:#161616;border:1px solid #2e2e2e;padding:36px;max-width:780px;margin:0 auto}
 article h1{font-size:1.7rem;line-height:1.3;color:#fff;margin-bottom:10px}
-article h2{font-size:1.1rem;color:#ff0100;margin:28px 0 10px}
+article h2{font-size:1.1rem;color:#f7a711;margin:28px 0 10px}
 article h3{font-size:.95rem;color:#e2e2e2;margin:22px 0 8px}
 article p{margin:0 0 14px;font-size:.98rem;color:#c2c2c2}
 article ul,article ol{margin:0 0 14px;padding-left:24px}article li{margin-bottom:6px;color:#c2c2c2}
@@ -175,7 +175,7 @@ function chrome(opts) {
     + (opts.jsonld || []).map(function (o) { return '<script type="application/ld+json">' + JSON.stringify(o) + '</script>\n'; }).join('')
     + '<style>' + CSS + '</style>\n</head>\n<body>\n'
     + '<div class="topbar"><div class="topbar-in">'
-    + '<a class="logo" href="' + SITE + '/"><img class="logo-img" src="' + SITE + '/assets/logo.png" alt="ShirtZone logo" width="58" height="46">Shirt<span>Zone</span> Blog</a>'
+    + '<a class="logo" href="' + SITE + '/"><img class="logo-img" src="' + SITE + '/assets/logo.png" alt="ShirtZone logo" width="58" height="46"><span class="logo-text">Shirt<span>Zone</span> Blog</span></a>'
     + '<a class="nav" href="' + MAIN + '/">shirtzone.com</a>'
     + '<a class="nav" href="tel:5307220122">' + PHONE + '</a>'
     + '<a class="btn" href="' + QUOTE + '">Get a Quote</a>'

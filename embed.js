@@ -39,7 +39,7 @@
     '.szb-back{display:inline-flex;align-items:center;gap:6px;background:none;border:1px solid #ff0100;padding:8px 18px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#ff0100;cursor:pointer;margin-bottom:22px;font-family:Montserrat,arial,sans-serif}',
     '.szb-back:hover{background:#ff0100;color:#fff}',
     '.szb-article h1{font-family:"Archivo Black",arial,sans-serif;font-size:1.55rem;font-weight:400;text-transform:uppercase;line-height:1.3;color:#fff;margin:0 0 10px}',
-    '.szb-article h2{font-family:"Archivo Black",arial,sans-serif;font-size:1.05rem;font-weight:400;text-transform:uppercase;color:#ff0100;margin:28px 0 10px}',
+    '.szb-article h2{font-family:"Archivo Black",arial,sans-serif;font-size:1.05rem;font-weight:400;text-transform:uppercase;color:#f7a711;margin:28px 0 10px}',
     '.szb-article h3{font-family:"Archivo Black",arial,sans-serif;font-size:.92rem;font-weight:400;text-transform:uppercase;color:#e2e2e2;margin:22px 0 8px}',
     '.szb-article p{margin:0 0 14px;font-size:.95rem;color:#c2c2c2}',
     '.szb-article ul,.szb-article ol{margin:0 0 14px;padding-left:24px}',
