@@ -6,7 +6,7 @@ Ordering branded apparel for a business isn't complicated, but a few decisions m
 
 Print pricing works in tiers. The setup cost (screens, artwork prep) is the same whether you order 20 shirts or 200, so per-shirt cost drops sharply at each break. Typical tiers look like: **12, 24, 48, 72, 144+**.
 
-The practical tip: if you're planning to order 40 shirts, ask what 48 would cost. It's often only a few dollars more in total — and you'll have spares for new hires instead of paying setup fees again in three months.
+The practical tip: if you're planning to order 40 shirts, ask what 48 would cost. It's often only a few dollars more in total, drops your per-shirt price, and leaves you spares for new hires. Good news for down the road: because we keep your art on file, an **exact reorder never pays a set-up fee** — you'd still hit the piece minimum and a second turnaround, which is exactly why a small stash of extras up front is worth it.
 
 ## 2. Fewer ink colors = lower cost
 
@@ -24,7 +24,7 @@ Things to consider:
 
 ## 4. Consolidate sizes at order time, not after
 
-Collect everyone's size *before* you order. Adding "just two more larges" after the run means a new setup charge. Pro tip: order a couple of extra shirts in your most common sizes — future you will be grateful.
+Collect everyone's size *before* you order. An exact reorder never costs a set-up fee — your art's on file — but a "just two more larges" follow-up still has to clear the piece minimum and wait on a second turnaround. Pro tip: order a couple of extra shirts in your most common sizes — future you will be grateful.
 
 ## 5. Get vector art if you can
 

@@ -13,6 +13,8 @@ ShirtZone decorates custom apparel. Exactly these services — never mention any
 
 Other services include free digital proofs, art kept on file for reorders, design help, and a quote form on the website. Always respect the minimums when discussing quantities — never suggest ordering fewer pieces than the minimum for a service.
 
+**Set-up fees (get this right — it's a real selling point):** Set-up fees apply ONLY to new artwork (new screens, new embroidery digitizing, new designs). **Exact reorders are never charged set-up or re-set fees** — the art stays on file, so ordering the same design again skips that cost entirely. When a post touches pricing, reorders, or "art on file," you may highlight this. Never imply reorders incur set-up charges. (A change to the art on a reorder counts as new art and can incur a set-up fee; only *exact* reorders are fee-free.)
+
 **Target readers (write for these people only):**
 1. **Local businesses & brands** — owners/managers buying staff shirts, uniforms, promo merch, retail merch
 2. **Local contractors & construction companies** — crew shirts and hoodies, hi-vis and workwear, embroidered caps and leather-patch caps, company branding that survives the job site
