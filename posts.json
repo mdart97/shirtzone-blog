@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-07-16",
+  "updated": "2026-07-20",
   "posts": [
+    {
+      "slug": "redding-contractor-workwear",
+      "title": "Custom Work Shirts & Caps for Redding-Area Contractors This Fall",
+      "date": "2026-07-20",
+      "tags": ["Contractors", "Embroidery"],
+      "excerpt": "Custom work shirts for contractors in Redding: why fall crew gear needs ordering now, and how embroidery and leather-patch caps hold up on the job.",
+      "file": "posts/2026-07-20-redding-contractor-workwear.md"
+    },
     {
       "slug": "fundraiser-tees",
       "title": "Fundraiser Tees That Sell: Design Tips for Schools and Events",
