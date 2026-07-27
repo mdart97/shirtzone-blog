@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-07-20",
+  "updated": "2026-07-27",
   "posts": [
+    {
+      "slug": "embroidered-scrubs-clinic",
+      "title": "Embroidered Scrubs for a Small Clinic in Redding",
+      "date": "2026-07-27",
+      "tags": ["Healthcare", "Embroidery"],
+      "excerpt": "Embroidered scrubs for a small clinic in Redding: minimums, turnaround, and why staff polos beat printed logos before the back-to-school patient rush.",
+      "file": "posts/2026-07-27-embroidered-scrubs-clinic.md"
+    },
     {
       "slug": "redding-contractor-workwear",
       "title": "Custom Work Shirts & Caps for Redding-Area Contractors This Fall",
