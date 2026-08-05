@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-07-27",
+  "updated": "2026-08-05",
   "posts": [
+    {
+      "slug": "order-fall-sports-jerseys",
+      "title": "When to Order Fall Sports Jerseys (Before It's Too Late)",
+      "date": "2026-08-05",
+      "tags": ["Teams & Schools", "Screen Printing"],
+      "excerpt": "When to order fall sports jerseys so football, soccer, and volleyball teams have them before the first game — a simple 4-week timeline.",
+      "file": "posts/2026-08-05-order-fall-sports-jerseys.md"
+    },
     {
       "slug": "embroidered-scrubs-clinic",
       "title": "Embroidered Scrubs for a Small Clinic in Redding",
