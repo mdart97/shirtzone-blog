@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-08-05",
+  "updated": "2026-08-18",
   "posts": [
+    {
+      "slug": "back-to-school-spirit-wear",
+      "title": "Back-to-School Spirit Wear: What Redding PTAs Should Order Now",
+      "date": "2026-08-18",
+      "tags": ["Teams & Schools", "Screen Printing"],
+      "excerpt": "Back-to-school spirit wear for Redding schools: order timing, screen-printing minimums, and how PTAs avoid guessing on sizes.",
+      "file": "posts/2026-08-18-back-to-school-spirit-wear.md"
+    },
     {
       "slug": "order-fall-sports-jerseys",
       "title": "When to Order Fall Sports Jerseys (Before It's Too Late)",
