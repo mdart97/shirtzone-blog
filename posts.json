@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-08-18",
+  "updated": "2026-08-24",
   "posts": [
+    {
+      "slug": "custom-holiday-gifts-for-employees",
+      "title": "Custom Holiday Gifts for Employees: Order Early This Year",
+      "date": "2026-08-24",
+      "tags": ["Business Merch", "Embroidery"],
+      "excerpt": "Custom holiday gifts for employees — embroidered jackets and leather-patch caps — need ordering now, before December lead times fill up.",
+      "file": "posts/2026-08-24-custom-holiday-gifts-for-employees.md"
+    },
     {
       "slug": "back-to-school-spirit-wear",
       "title": "Back-to-School Spirit Wear: What Redding PTAs Should Order Now",
