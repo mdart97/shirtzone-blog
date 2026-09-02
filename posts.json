@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-08-24",
+  "updated": "2026-09-02",
   "posts": [
+    {
+      "slug": "breast-cancer-awareness-shirts",
+      "title": "Breast Cancer Awareness Shirts for Redding Clinic Staff",
+      "date": "2026-09-02",
+      "tags": ["Healthcare", "Screen Printing"],
+      "excerpt": "Breast cancer awareness shirts for your Redding clinic staff: order by mid-September so October pink shirt days start on time.",
+      "file": "posts/2026-09-02-breast-cancer-awareness-shirts.md"
+    },
     {
       "slug": "custom-holiday-gifts-for-employees",
       "title": "Custom Holiday Gifts for Employees: Order Early This Year",
