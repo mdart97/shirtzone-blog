@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-09-02",
+  "updated": "2026-09-09",
   "posts": [
+    {
+      "slug": "leather-patch-hats-construction",
+      "title": "Custom Leather Patch Hats for Construction Companies",
+      "date": "2026-09-09",
+      "tags": ["Contractors", "Leather Patch"],
+      "excerpt": "Custom leather patch hats for construction companies: why they outlast embroidery and screen print on the job, and why fall is the time to order.",
+      "file": "posts/2026-09-09-leather-patch-hats-construction.md"
+    },
     {
       "slug": "breast-cancer-awareness-shirts",
       "title": "Breast Cancer Awareness Shirts for Redding Clinic Staff",
