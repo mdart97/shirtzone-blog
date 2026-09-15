@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-09-09",
+  "updated": "2026-09-15",
   "posts": [
+    {
+      "slug": "winter-sports-jerseys",
+      "title": "When to Order Basketball and Wrestling Jerseys This Winter",
+      "date": "2026-09-15",
+      "tags": ["Teams & Schools", "Screen Printing"],
+      "excerpt": "When to order basketball and wrestling jerseys this winter: screen-printed designs, heat-pressed names and numbers, and a timeline to hit tip-off.",
+      "file": "posts/2026-09-15-winter-sports-jerseys.md"
+    },
     {
       "slug": "leather-patch-hats-construction",
       "title": "Custom Leather Patch Hats for Construction Companies",
