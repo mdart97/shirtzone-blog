@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-10-01",
+  "updated": "2026-10-06",
   "posts": [
+    {
+      "slug": "custom-crew-hoodies-redding",
+      "title": "Custom Crew Hoodies for Redding Contractors This Winter",
+      "date": "2026-10-06",
+      "tags": ["Contractors", "Screen Printing"],
+      "excerpt": "Custom crew hoodies for Redding contractors: best styles for the job site, screen print vs. embroidery, and why October is the time to order.",
+      "file": "posts/2026-10-06-custom-crew-hoodies-redding.md"
+    },
     {
       "slug": "embroidered-jackets-medical-staff",
       "title": "Embroidered Jackets for Medical Staff: How to Order for Winter",
