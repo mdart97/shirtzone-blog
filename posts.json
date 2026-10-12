@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-10-06",
+  "updated": "2026-10-12",
   "posts": [
+    {
+      "slug": "holiday-market-merch",
+      "title": "How Much Merch to Order for a Holiday Market Booth",
+      "date": "2026-10-12",
+      "tags": ["Business Merch", "Screen Printing"],
+      "excerpt": "How much merch to order for a holiday market: a foot-traffic formula, the size split that sells, and the best winter pieces to stock.",
+      "file": "posts/2026-10-12-holiday-market-merch.md"
+    },
     {
       "slug": "custom-crew-hoodies-redding",
       "title": "Custom Crew Hoodies for Redding Contractors This Winter",
