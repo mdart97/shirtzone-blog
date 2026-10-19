@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-10-12",
+  "updated": "2026-10-19",
   "posts": [
+    {
+      "slug": "turkey-trot-shirts-redding",
+      "title": "Custom Turkey Trot Shirts for Redding Race Organizers",
+      "date": "2026-10-19",
+      "tags": ["Teams & Schools", "Screen Printing"],
+      "excerpt": "Custom Turkey Trot shirts for Redding race organizers: order timeline, how many to order, and design tips to have shirts ready before packet pickup.",
+      "file": "posts/2026-10-19-turkey-trot-shirts-redding.md"
+    },
     {
       "slug": "holiday-market-merch",
       "title": "How Much Merch to Order for a Holiday Market Booth",
