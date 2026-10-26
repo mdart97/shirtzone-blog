@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-10-19",
+  "updated": "2026-10-26",
   "posts": [
+    {
+      "slug": "dental-office-embroidered-polos",
+      "title": "Embroidered Polos for a Dental Office: Order Now for January",
+      "date": "2026-10-26",
+      "tags": ["Healthcare", "Embroidery"],
+      "excerpt": "Embroidered polos for a dental office: the best styles, logo sizing, how many to order, and why late October beats the holiday embroidery rush.",
+      "file": "posts/2026-10-26-dental-office-embroidered-polos.md"
+    },
     {
       "slug": "turkey-trot-shirts-redding",
       "title": "Custom Turkey Trot Shirts for Redding Race Organizers",
