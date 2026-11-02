@@ -1,7 +1,15 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "posts": [
+    {
+      "slug": "embroidered-beanies-redding",
+      "title": "Custom Embroidered Beanies for Redding Work Crews",
+      "date": "2026-11-02",
+      "tags": ["Contractors", "Embroidery"],
+      "excerpt": "Custom embroidered beanies for Redding work crews: the best styles, logo sizing, how many to order, and why early November beats the holiday rush.",
+      "file": "posts/2026-11-02-embroidered-beanies-redding.md"
+    },
     {
       "slug": "dental-office-embroidered-polos",
       "title": "Embroidered Polos for a Dental Office: Order Now for January",
