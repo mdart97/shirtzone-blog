@@ -1,7 +1,31 @@
 {
   "blog": "ShirtZone Blog",
-  "updated": "2026-11-02",
+  "updated": "2026-11-23",
   "posts": [
+    {
+      "slug": "gifts-for-medical-office-staff",
+      "title": "Gifts for Medical Office Staff That Actually Get Worn",
+      "date": "2026-11-23",
+      "tags": ["Healthcare", "Embroidery"],
+      "excerpt": "Gifts for medical office staff they'll actually wear: embroidered quarter-zips, vests, and caps, plus the late-November timeline to beat the rush.",
+      "file": "posts/2026-11-23-gifts-for-medical-office-staff.md"
+    },
+    {
+      "slug": "custom-staff-shirts-redding",
+      "title": "Custom Staff Shirts for Redding Businesses: Plan a January Refresh",
+      "date": "2026-11-16",
+      "tags": ["Business Merch", "Screen Printing"],
+      "excerpt": "Custom staff shirts for Redding businesses: how many to order, screen print vs. embroidery, and why mid-November is the time to plan a January refresh.",
+      "file": "posts/2026-11-16-custom-staff-shirts-redding.md"
+    },
+    {
+      "slug": "order-baseball-softball-jerseys",
+      "title": "When to Order Baseball and Softball Jerseys for Spring",
+      "date": "2026-11-09",
+      "tags": ["Teams & Schools", "Screen Printing"],
+      "excerpt": "When to order baseball and softball jerseys for spring: a simple timeline, the design-now, numbers-later split, and caps to finish the uniform.",
+      "file": "posts/2026-11-09-order-baseball-softball-jerseys.md"
+    },
     {
       "slug": "embroidered-beanies-redding",
       "title": "Custom Embroidered Beanies for Redding Work Crews",
